@@ -69,6 +69,7 @@ e.preventDefault();
 <div className="ag-theme-alpine" style={{ height: 400, width: 1200 }}>
     <AgGridReact
         rowData={coviddata}
+        animateRows={true}
         pagination={true}
                paginationPageSize={7}>
         <AgGridColumn field="Country" sortable={true} filter={true} resizable={true}></AgGridColumn>
