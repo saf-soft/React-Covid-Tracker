@@ -71,6 +71,7 @@ e.preventDefault();
         rowData={coviddata}
         animateRows={true}
         pagination={true}
+enableRangeSelection={true}
                paginationPageSize={7}>
         <AgGridColumn field="Country" sortable={true} filter={true} resizable={true}></AgGridColumn>
         
