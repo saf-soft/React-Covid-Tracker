@@ -72,16 +72,17 @@ e.preventDefault();
         animateRows={true}
         pagination={true}
 enableRangeSelection={true}
+autoGroupColumnDef={{ minWidth: 200 }}
                paginationPageSize={7}>
-        <AgGridColumn field="Country" sortable={true} filter={true} resizable={true}></AgGridColumn>
+        <AgGridColumn field="Country" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
         
-        <AgGridColumn field="Deaths" sortable={true} filter={true} resizable={true}></AgGridColumn>
-        <AgGridColumn field="Confirmed" sortable={true} filter={true} resizable={true}></AgGridColumn>
-        <AgGridColumn field="Active" sortable={true} filter={true} resizable={true}></AgGridColumn>
-        <AgGridColumn field="Recovered" sortable={true} filter={true} resizable={true}></AgGridColumn>
+        <AgGridColumn field="Deaths" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
+        <AgGridColumn field="Confirmed" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
+        <AgGridColumn field="Active" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
+        <AgGridColumn field="Recovered" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
         
-        <AgGridColumn field="Date" sortable={true} filter={true} resizable={true}></AgGridColumn>
-        <AgGridColumn field="Province" sortable={true} filter={true} resizable={true}></AgGridColumn>
+        <AgGridColumn field="Date" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
+        <AgGridColumn field="Province" sortable={true} filter={true} resizable={true} enableRowGroup={true}></AgGridColumn>
     </AgGridReact>
 </div>
 <div align="center" style={{color:"dodgerblue",fontSize:14,fontWeight:"bold"}}>Please Note : Data showing as Grand Total</div>
