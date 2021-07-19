@@ -50,7 +50,7 @@ e.preventDefault();
    
     return (
     <div>
-      <br><div><br></div>
+     <br></br><div><br></br></div>
 <div align="center" style={{color:"red",fontSize:25,fontWeight:"bold"}}>World Covid Tracker </div>
 
     <form className={classes.root} noValidate autoComplete="off">
