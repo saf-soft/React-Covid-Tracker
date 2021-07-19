@@ -87,7 +87,7 @@ enableRangeSelection={true}
         <AgGridColumn field="Province" sortable={true} filter={true} resizable={true} ></AgGridColumn>
     </AgGridReact>
 </div>
-<div align="center" style={{color:"dodgerblue",fontSize:14,fontWeight:"bold"}}>Please Note : Data showing as Grand Total</div>
+<div align="center" style={{color:"violet",fontSize:14,fontWeight:"bold"}}>Please Note : Data showing as Grand Total</div>
 <div align="center" style={{color:"seagreen",fontSize:14,fontWeight:"bold"}}>Filter by clicking 
 column header 3 bars | Sort by Clicking ColumnName</div>
 <br>
