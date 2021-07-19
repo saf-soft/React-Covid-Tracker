@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import Covid from './Covid';
+import Covid from './Covid.js';
 
 function App() {
   return (
