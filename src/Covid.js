@@ -52,7 +52,7 @@ e.preventDefault();
     <div>
       
 <div align="center" style={{color:"red",fontSize:25,fontWeight:"bold",
-       background-image:" -webkit-linear-gradient(left, #39b34a,#64c472, #ffffff)",padding:"10px",border-radius:"10px"}}>World Covid Tracker </div>
+       backgroundImage:" -webkit-linear-gradient(left, #39b34a,#64c472, #ffffff)",padding:"10px",borderRadius:"10px"}}>World Covid Tracker </div>
 
     <form className={classes.root} noValidate autoComplete="off">
     <div align="center" style={{color:"cornflowerblue",fontSize:15,fontWeight:"bold"}}>Enter Country Name Ex: india</div>
