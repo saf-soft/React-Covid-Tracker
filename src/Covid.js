@@ -50,7 +50,7 @@ e.preventDefault();
    
     return (
     <div>
-      <div>
+      
 <div align="center" style={{color:"red",fontSize:25,fontWeight:"bold"}}>World Covid Tracker </div>
 
     <form className={classes.root} noValidate autoComplete="off">
@@ -97,9 +97,9 @@ column header 3 bars | Sort by Clicking ColumnName</div>
 Developed By <i>Safwan Mannambath</i>
 <br></br>
 <hr width={250}></hr>
-</center>
 
-</div>
+
+
 {/* 
     This part is displaying as map function same data above
   <div>
