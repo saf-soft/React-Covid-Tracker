@@ -50,7 +50,7 @@ e.preventDefault();
    
     return (
     <div>
-      
+      <br>
 <div align="center" style={{color:"red",fontSize:25,fontWeight:"bold",
        backgroundColor:"dodgerblue",padding:"10px",borderRadius:"10px"}}>World Covid Tracker </div>
 
