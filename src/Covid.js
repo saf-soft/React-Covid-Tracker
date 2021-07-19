@@ -51,7 +51,7 @@ e.preventDefault();
     return (
     <div>
      <br></br><div><br></br></div>
-<div align="center" style={{color:"red",fontSize:25,fontWeight:"bold"}}>World Covid Tracker </div>
+<div align="center" style={{color:"maroon",fontSize:25,fontWeight:"bold"}}>World Covid Tracker </div>
 
     <form className={classes.root} noValidate autoComplete="off">
     <div align="center" style={{color:"cornflowerblue",fontSize:15,fontWeight:"bold"}}>Enter Country Name Ex: india</div>
